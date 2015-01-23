@@ -1,0 +1,25 @@
+html  {
+  background-color: #ae90d3;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 5rem;
+  font-style: italic; / *normal, italic */
+  text-decoration: underline; /* underline, line-through */
+  font-family: 'Lobster', cursive;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  line-height: 2;
+}
+
+.planet {
+  color: #390e6e;
+}
+
+a:hover {
+  color: white;
+}
