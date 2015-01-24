@@ -2,11 +2,16 @@ html  {
   background-color: #e8d6fd;
 }
 
+.narrowwidth {
+  width: 584px;
+}
+
 h1 {
   font-weight: normal;
   font-size: 5rem;
   font-style: italic; /* normal, italic */
-  font-family: 'Lobster', cursive;
+  font-family: 'Bevan', cursive;
+  text-align: center;
 }
 
 ol {
@@ -19,7 +24,7 @@ h2 {
   font-weight: normal;
   font-size: 2rem;
   font-style: bold; /* normal, bold */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bevan', cursive;
 
 }
 
@@ -28,16 +33,16 @@ h2 {
 }
 blockquote {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: italic; /* normal, italic */
 
 }
 
 .name {
-  text-align: left;
+  text-align: right;
   font-size: 1rem;
   font-style: italic; /* normal, italic */
-  font-color: gray;
+  color: grey;
 }
 
 a:hover {
