@@ -45,6 +45,39 @@ blockquote {
   color: grey;
 }
 
+ul {
+  list-style-type: lower-roman;
+  padding: 1;
+  line-height: 2;
+}
+
+figcaption {
+  align: center;
+  font-size: 1rem;
+  font-style: italic; /* normal, italic */
+  text-indent: 50px;
+}
+
+
+dl {
+  list-style-type: none;
+  padding: 0;
+  line-height: 1;
+}
+
+data {
+  list-style-type: none;
+  padding: 0;
+  line-height: 1;
+}
+p {
+  text-indent: 50px;
+}
+
+.cite {
+  style-type: circle;
+}
+
 a:hover {
   color: white;
 }
