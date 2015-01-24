@@ -1,12 +1,11 @@
 html  {
-  background-color: #ae90d3;
+  background-color: #e8d6fd;
 }
 
 h1 {
   font-weight: normal;
   font-size: 5rem;
-  font-style: italic; / *normal, italic */
-  text-decoration: underline; /* underline, line-through */
+  font-style: italic; /* normal, italic */
   font-family: 'Lobster', cursive;
 }
 
@@ -16,8 +15,29 @@ ol {
   line-height: 2;
 }
 
+h2 {
+  font-weight: normal;
+  font-size: 2rem;
+  font-style: bold; /* normal, bold */
+  font-family: 'Montserrat', sans-serif;
+
+}
+
 .planet {
   color: #390e6e;
+}
+blockquote {
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic; /* normal, italic */
+
+}
+
+.name {
+  text-align: left;
+  font-size: 1rem;
+  font-style: italic; /* normal, italic */
+  font-color: gray;
 }
 
 a:hover {
